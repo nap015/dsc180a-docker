@@ -1,0 +1,14 @@
+name: tf1
+channels:
+- conda-forge
+- defaults
+dependencies:
+- pip
+- python=3.7
+- cudatoolkit=10.0
+- pip:
+  - ipywidgets
+  - tensorflow-gpu~=1.13.0
+  - numpy
+  - matplotlib
+  - pandas
